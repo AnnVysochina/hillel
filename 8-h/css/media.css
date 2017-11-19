@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+  
+  .sidebar {
+    width: 50px;
+  }
+  
+  .item-link {
+    text-decoration: none;
+    padding: 15px 0;
+    justify-content: center;
+  }
+  
+  .item-link img {
+    margin: 0;
+  }
+  
+  .item-link span {
+    display: none;
+  }
+  
+  .unread {
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    right: 3px;
+    top: 7px;
+  }
+  
+}

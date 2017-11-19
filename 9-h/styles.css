@@ -1,0 +1,36 @@
+body {
+  background-color: #000;
+  background-image: url(img/bg.jpg);
+}
+
+.starwars-demo {
+  height: 17rem;
+  width: 34rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  perspective: 10px;
+}
+
+
+img {
+  width: 100%;
+}
+
+.star,
+.wars {
+  position: absolute;
+}
+
+.star {
+  top: 0;
+  animation: star 10s ease-out 0s infinite;
+  transform-origin: bottom;
+}
+
+.wars {
+  bottom: 0;
+  animation: wars 10s ease-out 0s infinite;
+  transform-origin: top;
+}

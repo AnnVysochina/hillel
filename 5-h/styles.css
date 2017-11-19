@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+}
+html * {
+    box-sizing: border-box;
+}
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.container {
+    padding: 50px 150px;
+}
+.menu {
+    font-family: Gotham;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    font-size: 12px;
+    line-height: 50px;
+    font-weight: 500;
+}
+.menu-item {
+    color: #a7a7a7;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.clouds {
+    background-image: url('images/cloud.png');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.clouds-title {
+    font-family: Gotham;
+    text-transform: uppercase;
+    color: #5a5a5a;
+    font-size: 40px;
+    margin: 10px 0;
+}
+.clouds-subtitle {
+    font-family: Georgia;
+    color: #303030;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+.scroll-down {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    background-image: url(images/path.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.5);
+}
+.featured {
+    margin-bottom: 50px;
+}
+.title {
+    font-family: Gotham;
+    color: #303030;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.title:after {
+    content: "";
+    height: 3px;
+    width: 240px;
+    display: block;
+    margin: 20px auto 0;
+    background-color: #303030;
+    text-align: center;
+}
+.description {
+    font-family: ProximaNova;
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+.galary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galary-item {
+    flex-basis: 33%;
+    padding: 30px;
+    
+}
+
+.galary-item img {
+    width: 100%;
+}
+
+.team {
+    background-color: #f3f3f3;
+}
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team-card {
+    background-color: #fff;
+    padding: 15px 20px 5px 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.card-photo {
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+.card-name {
+    font-family: Gotham;
+    color: #303030;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.card-profession {
+    font-family: Georgia;
+    color: #303030;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-link {
+    padding: 10px;
+    text-decoration: none;
+}
+.link-img {
+    border: none;
+}
+.contact {
+    
+}
+.contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-map {
+    margin-right: 40px;
+}
+.contact-map img {
+    width: 320px;
+    height: 320px;
+}
+.contact-description {
+    font-family: ProximaNova;
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: 20px 25px;
+}
+textarea,
+input {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #f2f2f2;
+}
+.textfild {
+    height: 235px;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 25px;
+}
+.form-row {
+    display: flex;
+}
+.contact-map {
+    flex-grow: 230px;
+}
+.email {
+    height: 60px;
+    padding: 20px;
+    margin-right: 25px;
+    flex-grow: 2;
+}
+.form-btn {
+    border: 2px solid #ffffff;
+    background-color: #6995a9;
+    box-shadow: 1px 2px 10px 0px rgba(0, 1, 1, 0.25);
+    width: 205px;
+    height: 60px;
+    font-family: Gotham;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.form-btn img {
+    margin-right: 15px;
+}
+.footer {
+    height: 80px;
+    background-color: #4f4f4f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6e6e6e;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer span {
+    color: #949494;
+}

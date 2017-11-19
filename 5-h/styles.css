@@ -4,30 +4,33 @@
 html * {
     box-sizing: border-box;
 }
-body,
-html {
+
+body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: sans-serif;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     height: 100px;
     align-items: center;
+    padding: 0 150px;
 }
+
 .container {
-    padding: 50px 150px;
+    padding: 50px 150px 70px;
 }
+
 .menu {
-    font-family: Gotham;
+    font-family: ProximaNova-Regular;
     display: flex;
     justify-content: space-around;
-    width: 300px;
+    width: 400px;
     font-size: 12px;
     line-height: 50px;
-    font-weight: 500;
 }
 .menu-item {
     color: #a7a7a7;
@@ -45,14 +48,14 @@ html {
     text-align: center;
 }
 .clouds-title {
-    font-family: Gotham;
+    font-family: Gotham-Bold;
     text-transform: uppercase;
     color: #5a5a5a;
     font-size: 40px;
     margin: 10px 0;
 }
 .clouds-subtitle {
-    font-family: Georgia;
+    font-family: serif;
     color: #303030;
     font-size: 16px;
     margin-bottom: 80px;
@@ -68,10 +71,10 @@ html {
     box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.5);
 }
 .featured {
-    margin-bottom: 50px;
+    
 }
 .title {
-    font-family: Gotham;
+    font-family: Gotham-Bold;
     color: #303030;
     font-size: 30px;
     font-weight: 700;
@@ -91,7 +94,7 @@ html {
     text-align: center;
 }
 .description {
-    font-family: ProximaNova;
+    font-family: ProximaNova-Regular;
     color: #5a5a5a;
     font-size: 16px;
     font-weight: 400;
@@ -134,7 +137,7 @@ html {
     margin: 0 0 15px 0;
 }
 .card-name {
-    font-family: Gotham;
+    font-family: Gotham-Bold;
     color: #303030;
     font-size: 16px;
     font-weight: 700;
@@ -143,10 +146,10 @@ html {
     margin-bottom: 15px;
 }
 .card-profession {
-    font-family: Georgia;
-    color: #303030;
-    font-size: 12px;
+    font-family: serif;
     font-style: italic;
+    color: #303030;
+    font-size: 14px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -178,12 +181,12 @@ html {
     height: 320px;
 }
 .contact-description {
-    font-family: ProximaNova;
+    font-family: ProximaNova-Regular;
     color: #5a5a5a;
     font-size: 16px;
     font-weight: 400;
     text-align: left;
-    margin: 20px 25px;
+    margin: 20px 0;
 }
 textarea,
 input {
@@ -214,7 +217,7 @@ input {
     box-shadow: 1px 2px 10px 0px rgba(0, 1, 1, 0.25);
     width: 205px;
     height: 60px;
-    font-family: Gotham;
+    font-family: Gotham-Bold;
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
@@ -226,12 +229,13 @@ input {
 }
 .footer {
     height: 80px;
+    padding: 0 150px;
     background-color: #4f4f4f;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #6e6e6e;
-    font-family: ProximaNova;
+    font-family: ProximaNova-Regular;
     font-size: 16px;
     font-weight: 400;
 }

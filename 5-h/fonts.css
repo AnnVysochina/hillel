@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("./fonts/Gotham-Bold/Gotham-Bold.eot?#iefix") format("embedded-opentype"),
+       url("./fonts/Gotham-Bold/Gotham-Bold.woff") format("woff"),
+       url("./fonts/Gotham-Bold/Gotham-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url("./fonts/ProximaNova-Regular/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
+       url("./fonts/ProximaNova-Regular/ProximaNova-Regular.woff") format("woff"),
+       url("./fonts/ProximaNova-Regular/ProximaNova-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
